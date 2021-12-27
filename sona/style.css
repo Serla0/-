@@ -1,0 +1,56 @@
+p {
+    font-size: 0px;
+    animation-name: fond;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+embed {
+    margin-left: 35vw;
+    margin-right: 35vw;
+}
+body {
+    background-image: url(1607233493_maxresdefault2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.Sona {
+    width: 100px;
+    height: auto;
+    animation-name: plush;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    position: relative;
+    bottom: 30px;
+    animation-iteration-count: infinite;
+}
+.Putin {
+    animation-name: noname;
+    animation-duration: 20s;
+    position: relative;
+    top: 20px;
+    animation-iteration-count: infinite;
+}
+@keyframes noname {
+    0% {left: 60px;}
+    100% {left: 630px;}
+}
+.hodba {
+    width: 1000px;
+    background-color: #cf5f5f81;
+    border: 3px #cf5f5fd5 solid;
+    margin: 3vw 9vw;
+}
+@keyframes plush {
+    0% {width: 100px; height: 9px;}
+    100% {width: 100px; height: 9px;}
+}
+@keyframes fond {
+    0% {font-size: 60px;}
+    100% {font-size: 60px;}
+}
