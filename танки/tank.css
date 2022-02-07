@@ -1,0 +1,30 @@
+#tank_1, #tank_2 {
+    width: 30px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    z-index: 2;
+}
+#tank_1 {
+    background-image: url("танк1.png");
+}
+#tank_2 {
+    background-image: url("танк2.png");
+    left: 1200px;
+    top: 520px;
+}
+.convas {
+    width: 1240px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: rgb(92, 141, 139);
+}
+#pul1, #pul2 {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    /* z-index: 1; */
+}

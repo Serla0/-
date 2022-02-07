@@ -1,0 +1,35 @@
+.Sona {
+    width: 100px;
+    height: auto;
+    animation-name: plush;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    position: relative;
+    bottom: 0px;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+.Putin {
+    animation-name: noname;
+    animation-duration: 20s;
+    position: relative;
+    top: 53px;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+@keyframes noname {
+    0% {left: 60px;}
+    100% {left: 630px;}
+}
+.hodba {
+    width: 1307px;
+    height: auto;
+    background-image: url('фон боя.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin: 8vw 8vw;
+}
+@keyframes plush {
+    0% {width: 100px; height: 9px;}
+    100% {width: 100px; height: 9px;}
+}

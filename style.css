@@ -1,0 +1,128 @@
+body, html {
+    width: auto;
+    height: 1020px;
+    background-color: black;
+    margin: 0;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 820px;
+    background-color: #0b2c47;
+    box-shadow: 0 0 80px #0b2c47;
+    color: rgb(126, 186, 241);
+    text-align: center;
+}
+ul {
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
+ol {
+    text-align: left;
+    font-size: 20px;
+}
+.li {
+    display: inline-block;
+}
+.li + .li {
+    margin: 15px;
+    margin-left: 20px;
+}
+.ya {
+    width: 600px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: -20px;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 0px;
+}
+.inp {
+    width: 650px;
+    height: 70px;
+    position: absolute;
+    background-color: #0b395f;
+    left: 70px;
+    top: 90px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #255784;
+    transition: 0.2s;
+    border-radius: 30px;
+    border: 0px;
+}
+.div {
+    float: left;
+    position: relative;
+    top: 500px;
+    left: 70px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.inp2 {
+    width: 450px;
+    height: 220px;
+    color: #255784;
+    overflow: hidden;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #0b395f;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.otpr {
+    border-radius: 30px;
+    background-color: #0b395f;
+    width: 80px;
+    height: 30px;
+    color: rgb(92, 125, 173);
+    position: relative;
+    left: 430px;
+    bottom: 10px;
+}
+a {
+    color: #255784;
+    overflow: hidden;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.inp:hover, .inp2:hover, .otpr:hover {
+    color: #0b395f;
+    background-color: #2196f3;
+    box-shadow: 0 0 40px #2196f3;
+}
+@media (max-width: 425px) {
+    .ya {
+        width: 60px;
+        height: auto;
+        position: absolute;
+        top: 40px;
+    }
+    .inp {
+        width: 325px;
+        height: 35px;
+        left: 20px;
+        top: 40px;
+        float: left;
+    }
+}
+@media (max-width: 375px) {
+    .inp {
+        left: 0px;
+    }
+}
