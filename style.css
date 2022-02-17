@@ -1,0 +1,171 @@
+body, html {
+    width: auto;
+    height: 1020px;
+    background-color: black;
+    margin: 0;
+}
+h1 {
+    font-size: 0;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 820px;
+    background-color: #0b2c47;
+    box-shadow: 0 0 80px #0b2c47;
+    color: rgb(126, 186, 241);
+    text-align: center;
+}
+ul {
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
+ol {
+    text-align: left;
+    font-size: 20px;
+}
+.li {
+    display: inline-block;
+}
+.li + .li {
+    margin: 15px;
+    margin-left: 20px;
+}
+.ya {
+    width: 600px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: -36px;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 0px;
+}
+.wimg {
+    width: 0px;
+    height: auto;
+    position: relative;
+    top: 105px;
+    left: 200px;
+}
+.inp {
+    position: absolute;
+    left: 70px;
+    top: 90px;
+    width: 650px;
+    height: 70px;
+    width: 650px;
+    height: 70px;
+    background-color: #0b395f;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #255784;
+    transition: 0.2s;
+    border-radius: 30px;
+    border: 0px;
+}
+.perepis {
+    position: fixed;
+    z-index: 3;
+    width: 100px;
+    height: auto;
+    left: 90%;
+    top: 82%;
+}
+.perep_img {
+    width: 100px;
+    height: auto;
+}
+a {
+    color: #255784;
+    overflow: hidden;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.inp:hover, .inp2:hover, .otpr:hover {
+    color: #0b395f;
+    background-color: #2196f3;
+    box-shadow: 0 0 40px #2196f3;
+}
+@media (max-width: 425px) {
+    .ya {
+        width: 0px;
+        height: auto;
+        position: absolute;
+        top: 40px;
+    }
+    .perep_img {
+        width: 70px;
+    }
+    .inp {
+        width: 325px;
+        height: 45px;
+        left: 20px;
+        top: 50px;
+        float: left;
+    }
+    .perepis {
+        left: 80%;
+        top: 85%;
+        width: 70px;
+    }
+    .wimg {
+        width: 50px;
+        top: 70px;
+        left: 365px;
+    }
+    ul {
+        top: 7px;
+        left: -2px;
+        font-size: 15px;
+    }
+    .li + .li {
+        margin: 0px;
+        margin-left: 10px;
+    }
+    ol {
+        font-size: 17px;
+    }
+    footer {
+        z-index: 4;
+    }
+}
+@media (max-width: 375px) {
+    .inp {
+        width: 315px;
+        height: 55px;
+        left: 0px;
+    }
+    ul {
+        top: 7px;
+        left: -18px;
+        font-size: 14px;
+    }
+    .li + .li {
+        margin: 0px;
+        margin-left: 7px;
+    }
+    .wimg {
+        width: 50px;
+        top: 72px;
+        left: 320px;
+    }
+}
+@media (max-width: 320px) {
+    footer {
+        width: 375px;
+    }
+    ul {
+        text-align: center;
+        left: 8px;
+    }
+}
