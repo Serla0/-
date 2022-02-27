@@ -2,16 +2,17 @@ body, html {
     margin: 0;
     width: 100%;
     height: 100%;
+    background-color: rgb(202, 177, 226);
 }
 .input_1 {
-    width: 89%;
+    width: 85%;
     height: 30px;
 }
 .main {
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(202, 177, 226);
+    padding-bottom: 300px;
 }
 .but_1 {
     width: 10%;
@@ -20,5 +21,5 @@ body, html {
 footer {
     width: 100%;
     position: fixed;
-    top: 90%;
+    top: 92%;
 }
