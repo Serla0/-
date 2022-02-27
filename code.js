@@ -7,6 +7,8 @@ function fun () {
         document.location.href = "sona.html";
     } else if (poisk.value.toLowerCase() == "vovan") {
         document.location.href = "vovan.html";
+    } else if (poisk.value.toLowerCase() == "c++") {
+        document.location.href = "C++.html";
     } else {
         alert("Нет такого промокода");
     }
