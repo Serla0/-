@@ -8,4 +8,4 @@ function glava() {
     localStorage.setItem("rey", main.innerHTML);
 }
 main.innerHTML = localStorage.getItem("rey");
-// localStorage.clear();
+localStorage.clear();
