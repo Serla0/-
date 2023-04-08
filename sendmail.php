@@ -35,16 +35,6 @@
         $body.='<p><strong>Сообщение:</strong> '.$_POST['message'].'</p>';
     }
     
-    if(empty($_FILES['image']['tmp_name'])) {
-
-        $filePath = __DIR__ . "/files/" . $_FILES['image']['name'];
-
-        if(copy($_FILES['image']['tmp_name'], $filePath)) {
-            $fileAttach = $filePath;
-            $body = '<p><strong>Фото в приложении</strong>';
-            $mail->addAttachment($fileAttach);
-        }
-    }
 
     $mail->Body = $body;
 
