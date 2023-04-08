@@ -49,18 +49,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 method: 'POST',
                 body: formData
             });
-            if(response.ok) {
-                let result = await response.json();
-                formPreview.innerHTML = '';
-                form.reset();
+            // if(response.ok) {
+            //     let result = await response.json();
+            //     formPreview.innerHTML = '';
+            //     form.reset();
                 form.classList.remove('_sending');
                 alert('Сообщение отправлено')
-            } else {
-                alert("Ошибка");
-                form.classList.remove('_sending');
-            }
-        } else {
-            alert("заполните обязательные поля");
+        //     } else {
+        //         alert("Ошибка");
+        //         form.classList.remove('_sending');
+        //     }
+        // } else {
+        //     alert("заполните обязательные поля");
         }
         
     }
